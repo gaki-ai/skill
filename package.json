@@ -1,0 +1,43 @@
+{
+  "name": "@gaki-ai/skill",
+  "version": "0.3.5",
+  "description": "Gaki Marketplace — buy and sell LLM inference access on-chain (USDC). MCP tools + HTTP API skill.",
+  "type": "module",
+  "bin": {
+    "gaki-skill": "./dist/index.js"
+  },
+  "files": [
+    "dist",
+    "skills"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "prepublishOnly": "npm run build",
+    "start": "node dist/index.js"
+  },
+  "keywords": [
+    "mcp",
+    "ai",
+    "agent",
+    "api",
+    "token",
+    "marketplace",
+    "gaki",
+    "usdc",
+    "onchain"
+  ],
+  "license": "MIT",
+  "homepage": "https://github.com/gaki-ai/skill",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/gaki-ai/skill.git"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.12.1",
+    "zod": "^3.25.20"
+  },
+  "devDependencies": {
+    "@types/node": "^25.5.0",
+    "typescript": "^5.8.3"
+  }
+}
