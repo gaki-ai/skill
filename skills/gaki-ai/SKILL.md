@@ -38,10 +38,6 @@ permissions:
 requires:
   bins:
     - node
-  env:
-    - GAKI_GATEWAY_URL
-    - GAKI_ADDRESS
-    - GAKI_CHAIN
   network_endpoints:
     - api.gaki.ai
 ---
