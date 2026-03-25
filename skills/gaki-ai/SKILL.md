@@ -10,6 +10,7 @@ tags:
   - marketplace
   - llm
   - inference
+  - api
   - token
   - permissionless
   - zero-fee
@@ -21,7 +22,17 @@ tags:
   - bsc
   - eip-191
   - stateless
-  - api
+  - trust
+  - reputation
+  - rating
+  - stake
+  - p2p
+  - decentralized
+  - peer-to-peer
+  - seller
+  - buyer
+  - model-access
+  - pay-per-use
 permissions:
   - network
 requires:
