@@ -4,13 +4,24 @@ description: >-
   Gaki Marketplace — buy and sell LLM inference access on-chain (USDC).
   MCP tools for browsing, buying, selling, and rating. No API keys needed.
 tags:
+  - ai
+  - agent
+  - mcp
   - marketplace
-  - crypto
-  - onchain
-  - usdc
   - llm
   - inference
-  - mcp
+  - token
+  - permissionless
+  - zero-fee
+  - onchain
+  - usdc
+  - crypto
+  - web3
+  - base
+  - bsc
+  - eip-191
+  - stateless
+  - api
 permissions:
   - network
 requires:
